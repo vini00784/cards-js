@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    list-style: none;
+    padding: 24px;
+}
+
+header {
+    text-align: center;
+    margin: 24px;
+    height: 100px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 24px;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container {
+    border: solid 2px tomato;
+    min-width: 200px;
+    min-height: 350px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: 3rem;
+}
